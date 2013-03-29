@@ -117,5 +117,8 @@ This will open up an editor with git commit messages that looks something like t
 
 ![Git Rebase](https://f.cloud.github.com/assets/676185/317063/5c389616-9856-11e2-935d-05787506c47b.png)
 
-There are many options available at this stage. These are detailed in [this github help page](https://help.github.com/articles/interactive-rebase). Here, I'm going to simply squash all changes in the creating a pull request section into one.
+There are many options available at this stage. These are detailed in [this github help page](https://help.github.com/articles/interactive-rebase). Here, I'm going to simply squash all changes in the creating a pull request section into one. Save and close the editor.
 
+![Squashing commits](https://f.cloud.github.com/assets/676185/317078/6857be58-9857-11e2-8dae-5fe4b45c2a5d.png)
+
+The next screen will pop up asking you to edit your commit messages. You can choose to edit them or simply continue. Save and close the editor.
