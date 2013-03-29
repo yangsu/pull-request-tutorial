@@ -122,3 +122,13 @@ There are many options available at this stage. These are detailed in [this gith
 ![Squashing commits](https://f.cloud.github.com/assets/676185/317078/6857be58-9857-11e2-8dae-5fe4b45c2a5d.png)
 
 The next screen will pop up asking you to edit your commit messages. You can choose to edit them or simply continue. Save and close the editor.
+
+![Squash Result](https://f.cloud.github.com/assets/676185/317086/cb3933f8-9857-11e2-9909-44cdd256bc11.png)
+
+Once your squash completes, you can push it to the remote repo. In this case, these squashed commits have been pushed to the server. However, I'm the only user of this branch and can safely force push the commit to update the git repo.
+
+```bash
+git push origin pull-request-demo -f
+```
+
+The pull request will automatically update to reflect the changes.
