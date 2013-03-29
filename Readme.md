@@ -34,3 +34,7 @@ git checkout -b pull-request-demo
 git push origin pull-request-demo
 ```
 
+### Creating a Pull Request
+
+To create a pull request, you must have changes committed to the your new branch.
+
