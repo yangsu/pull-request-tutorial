@@ -75,3 +75,13 @@ or see all the file changes from the pull request across all the commits under t
 You can event leave a comment on particular lines in the code change simply by hovering to the left of a line and clicking on the blue note icon.
 
 ![Comment in line](https://f.cloud.github.com/assets/676185/316916/015be558-984d-11e2-9c4c-2ddc793fac3c.png)
+
+### Merging a Pull Request
+
+Once you and your collaborators are happy with the changes, you start to merge the changes back to master. There are a few ways to do this.
+
+First, you can use github's "Merge pull request" button at the bottom of your pull request to merge your changes. This is only available when github can detect that there will be no merge conflicts with the base branch. If all goes well, you just have to add a commit message and click on "Confirm Merge" to merge the changes.
+
+![Merge pull request button](https://f.cloud.github.com/assets/676185/316946/e8c42c4c-984e-11e2-8a09-5a977652028a.png)
+![Confirm Merge](https://f.cloud.github.com/assets/676185/316947/ea15ebee-984e-11e2-8c08-e76a54c89755.png)
+
