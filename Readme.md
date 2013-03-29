@@ -102,3 +102,20 @@ In long standing branches, merging can often cause lots problems when updating i
 There are several advantages of performing merges this way. First, you only have to deal with merge conflicts once, since all commits are compressed into 1. Second, each commit represents an entire set of changes required for a feature or task, which makes it easy to pin point bugs and other problems when they arise and to remove a change set when it's no longer necessary.
 
 There are also disadvantages of squashing commits. First, you will lose the details and information for each change, as all changes squashed are compressed together. So the net effect is the same. Second, it can be dangerous and problematic if used incorrectly, such as squashing commits that have been pushed to the remote server **and** others depend on for their work. Because squashing is changing the git history, you can cause many conflicts that way. However, if you are using this locally or you are the only person working on your branch and you know exactly what you are doing.
+
+To perform this, use the following command
+
+```bash
+git rebase -i HEAD~10
+```
+
+`-i` stands for [interactive mode](http://git-scm.com/book/en/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) and `HEAD~10` means to examine the 10 latest commits.
+
+If you see an `fatal: Needed a single revision` error, use `git log -n 1` to get the commit hash on the latest commit and use `hash~10` rather than `HEAD~10`.
+
+This will open up an editor with git commit messages that looks something like this:
+
+![Git Rebase](https://f.cloud.github.com/assets/676185/317063/5c389616-9856-11e2-935d-05787506c47b.png)
+
+There are many options available at this stage. These are detailed in [this github help page](https://help.github.com/articles/interactive-rebase). Here, I'm going to simply squash all changes in the creating a pull request section into one.
+
