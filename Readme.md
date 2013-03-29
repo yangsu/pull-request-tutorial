@@ -85,3 +85,10 @@ First, you can use github's "Merge pull request" button at the bottom of your pu
 ![Merge pull request button](https://f.cloud.github.com/assets/676185/316946/e8c42c4c-984e-11e2-8a09-5a977652028a.png)
 ![Confirm Merge](https://f.cloud.github.com/assets/676185/316947/ea15ebee-984e-11e2-8c08-e76a54c89755.png)
 
+#### Merging Locally
+
+If the pull request cannot be merged online due to merge conflicts, or you wish to test things locally before sending the merge to the repo on Github, you can perform the merge locally instead.
+
+You can find the instruction to do so by clicking the `(i)` icon on the merge bar.
+
+![Merging Instructions](https://f.cloud.github.com/assets/676185/316954/b34855f6-984f-11e2-9713-6c8288617a78.png)
