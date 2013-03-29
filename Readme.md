@@ -31,5 +31,6 @@ To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`
 
 ```bash
 git checkout -b pull-request-demo
+git push origin pull-request-demo
 ```
 
