@@ -34,3 +34,11 @@ git checkout -b pull-request-demo
 git push origin pull-request-demo
 ```
 
+### Creating a Pull Request
+
+To create a pull request, you must have changes committed to the your new branch.
+
+Go to the repository page on github. And click on "Pull Request" button in the repo header.
+
+![Pull Request Button](https://f.cloud.github.com/assets/676185/316845/2ea7d418-9848-11e2-90af-5b8f31497a51.png)
+
