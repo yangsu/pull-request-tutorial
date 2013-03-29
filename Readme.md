@@ -93,7 +93,7 @@ You can find the instruction to do so by clicking the `(i)` icon on the merge ba
 
 ![Merging Instructions](https://f.cloud.github.com/assets/676185/316954/b34855f6-984f-11e2-9713-6c8288617a78.png)
 
-However, there's an alternative that's better in my opinion, particularly for long standing branches.
+However, there's an alternative that may be better for long standing branches.
 
 #### Squash, Rebase, and Cherry Pick
 
