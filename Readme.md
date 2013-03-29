@@ -58,4 +58,20 @@ You should now see an open pull request.
 
 ![Open Pull Request](https://f.cloud.github.com/assets/676185/316899/6a62a7c8-984b-11e2-92ee-182ef257b574.png)
 
+### Using a Pull Request
 
+You can write comments related to a pull request,
+
+![Writing a comment](https://f.cloud.github.com/assets/676185/316903/d9729df8-984b-11e2-9bf6-8fe064957723.png)
+
+view all the commits by all contained by a pull request under the commits tab,
+
+![Commits tab](https://f.cloud.github.com/assets/676185/316908/563073ba-984c-11e2-8bd6-450939fbd7b3.png)
+
+or see all the file changes from the pull request across all the commits under the "Files Changed" tab.
+
+![Files Changed](https://f.cloud.github.com/assets/676185/316911/9e4cbe42-984c-11e2-9636-dd50cb98db44.png)
+
+You can event leave a comment on particular lines in the code change simply by hovering to the left of a line and clicking on the blue note icon.
+
+![Comment in line](https://f.cloud.github.com/assets/676185/316916/015be558-984d-11e2-9c4c-2ddc793fac3c.png)
