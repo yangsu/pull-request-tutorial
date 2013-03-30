@@ -131,6 +131,12 @@ Once your squash completes, you can push it to the remote repo. In this case, th
 git push origin pull-request-demo -f
 ```
 
+To merge the commit, we will use [`git cherry-pick`](https://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html).
+
+![Cherry Picking](https://f.cloud.github.com/assets/676185/319726/fdc11cfa-98d9-11e2-8891-248d9ed09c05.png)
+
+You are done! Github should detect the changes and update the pull request. You can then marked the pull request as merged and optionally delete the branch.
+
 ### Closing a Pull Request
 
 You can simply click on the "Close" button on the pull request to close it. Optionally, you can delete the branch directly using the "Delete this branch" button.
