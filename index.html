@@ -78,7 +78,7 @@ git push origin pull-request-demo
 
 <p><img src="https://f.cloud.github.com/assets/676185/316845/2ea7d418-9848-11e2-90af-5b8f31497a51.png" alt="Pull Request Button"></p>
 
-<p>Pick the branch you wish to have merged using the "Head branch" dropdown. You should leave the rest of the fields as is, unless you are working from a remote branch. In that case, please refer to the <a href="">remote branch pull request guide</a>.</p>
+<p>Pick the branch you wish to have merged using the "Head branch" dropdown. You should leave the rest of the fields as is, unless you are working from a remote branch. In that case, just make sure that the base repo and base branch are set correctly.</p>
 
 <p><img src="https://f.cloud.github.com/assets/676185/316857/0d51b008-9849-11e2-909a-36e6f12436b4.png" alt="Head Branch Dropdown"></p>
 
@@ -128,7 +128,7 @@ git push origin pull-request-demo
 
 <p><img src="https://f.cloud.github.com/assets/676185/316954/b34855f6-984f-11e2-9713-6c8288617a78.png" alt="Merging Instructions"></p>
 
-<p>However, there's an alternative that's better in my opinion, particularly for long standing branches.</p>
+<p>However, there's an alternative that may be better for long standing branches.</p>
 
 <h4>Squash, Rebase, and Cherry Pick</h4>
 
@@ -163,6 +163,12 @@ git push origin pull-request-demo
 
 <div class="highlight"><pre>git push origin pull-request-demo -f
 </pre></div>
+
+<p>To merge the commit, we will use <a href="https://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html"><code>git cherry-pick</code></a>.</p>
+
+<p><img src="https://f.cloud.github.com/assets/676185/319726/fdc11cfa-98d9-11e2-8891-248d9ed09c05.png" alt="Cherry Picking"></p>
+
+<p>You are done! Github should detect the changes and update the pull request. You can then marked the pull request as merged and optionally delete the branch.</p>
 
 <h3>Closing a Pull Request</h3>
 
