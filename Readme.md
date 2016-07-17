@@ -36,7 +36,7 @@ git push origin pull-request-demo
 
 ### Creating a Pull Request
 
-To create a pull request, you must have changes committed to the your new branch.
+To create a pull request, you must have changes committed to your new branch.
 
 Go to the repository page on github. And click on "Pull Request" button in the repo header.
 
@@ -72,7 +72,7 @@ or see all the file changes from the pull request across all the commits under t
 
 ![Files Changed](https://f.cloud.github.com/assets/676185/316911/9e4cbe42-984c-11e2-9636-dd50cb98db44.png)
 
-You can event leave a comment on particular lines in the code change simply by hovering to the left of a line and clicking on the blue note icon.
+You can even leave a comment on particular lines in the code changed, simply by hovering to the left of a line and clicking on the blue note icon.
 
 ![Comment in line](https://f.cloud.github.com/assets/676185/316916/015be558-984d-11e2-9c4c-2ddc793fac3c.png)
 
@@ -142,5 +142,3 @@ You are done! Github should detect the changes and update the pull request. You 
 You can simply click on the "Close" button on the pull request to close it. Optionally, you can delete the branch directly using the "Delete this branch" button.
 
 ![Closing a Pull Request](https://f.cloud.github.com/assets/676185/317150/3f849c86-985b-11e2-9de9-9c555fc81515.png)
-
-
