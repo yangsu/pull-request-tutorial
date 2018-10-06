@@ -1,0 +1,16 @@
+Pull request for beginners in github
+Operating system : windows
+
+1) Firstly,change your directory where you want to clone the repository
+  for ex: cd Desktop
+2) Fork the repository and than clone it (i.e. copy its URL)
+3) Now use this command
+   git clone (URL of repository)
+4) Now change the directory to that folder which is created on your directory
+5) Now use following commands
+   git status
+   git add .
+   git commit -m "give any message"
+6) To final commit
+   git push origin master
+6) finally create the pull request by going into the github account
