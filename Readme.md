@@ -142,3 +142,5 @@ You are done! Github should detect the changes and update the pull request. You 
 You can simply click on the "Close" button on the pull request to close it. Optionally, you can delete the branch directly using the "Delete this branch" button.
 
 ![Closing a Pull Request](https://f.cloud.github.com/assets/676185/317150/3f849c86-985b-11e2-9de9-9c555fc81515.png)
+
+just checking
