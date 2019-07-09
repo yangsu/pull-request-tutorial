@@ -36,13 +36,13 @@ git push origin pull-request-demo
 
 ### Creating a Pull Request
 
-To create a pull request, you must have changes committed to the your new branch.
+To create a pull request, you must have changes committed to your new branch.
 
 Go to the repository page on github. And click on "Pull Request" button in the repo header.
 
 ![Pull Request Button](https://f.cloud.github.com/assets/676185/316845/2ea7d418-9848-11e2-90af-5b8f31497a51.png)
 
-Pick the branch you wish to have merged using the "Head branch" dropdown. You should leave the rest of the fields as is, unless you are working from a remote branch. In that case, please refer to the [remote branch pull request guide]().
+Pick the branch you wish to have merged using the "Head branch" dropdown. You should leave the rest of the fields as is, unless you are working from a remote branch. In that case, just make sure that the base repo and base branch are set correctly.
 
 ![Head Branch Dropdown](https://f.cloud.github.com/assets/676185/316857/0d51b008-9849-11e2-909a-36e6f12436b4.png)
 
@@ -72,7 +72,7 @@ or see all the file changes from the pull request across all the commits under t
 
 ![Files Changed](https://f.cloud.github.com/assets/676185/316911/9e4cbe42-984c-11e2-9636-dd50cb98db44.png)
 
-You can event leave a comment on particular lines in the code change simply by hovering to the left of a line and clicking on the blue note icon.
+You can even leave a comment on particular lines in the code changed, simply by hovering to the left of a line and clicking on the blue note icon.
 
 ![Comment in line](https://f.cloud.github.com/assets/676185/316916/015be558-984d-11e2-9c4c-2ddc793fac3c.png)
 
@@ -93,7 +93,7 @@ You can find the instruction to do so by clicking the `(i)` icon on the merge ba
 
 ![Merging Instructions](https://f.cloud.github.com/assets/676185/316954/b34855f6-984f-11e2-9713-6c8288617a78.png)
 
-However, there's an alternative that's better in my opinion, particularly for long standing branches.
+However, there's an alternative that may be better for long standing branches.
 
 #### Squash, Rebase, and Cherry Pick
 
@@ -131,4 +131,16 @@ Once your squash completes, you can push it to the remote repo. In this case, th
 git push origin pull-request-demo -f
 ```
 
-The pull request will automatically update to reflect the changes.
+To merge the commit, we will use [`git cherry-pick`](https://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html).
+
+![Cherry Picking](https://f.cloud.github.com/assets/676185/319726/fdc11cfa-98d9-11e2-8891-248d9ed09c05.png)
+
+You are done! Github should detect the changes and update the pull request. You can then marked the pull request as merged and optionally delete the branch.
+
+### Closing a Pull Request
+
+You can simply click on the "Close" button on the pull request to close it. Optionally, you can delete the branch directly using the "Delete this branch" button.
+
+![Closing a Pull Request](https://f.cloud.github.com/assets/676185/317150/3f849c86-985b-11e2-9de9-9c555fc81515.png)
+
+just checking
